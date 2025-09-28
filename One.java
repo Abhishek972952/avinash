@@ -2,32 +2,41 @@ import java.util.Scanner;
 
 class One
 {
+    public static void main(String arr[])
+    {
+        Scanner obj=new Scanner(System.in);
 
-public static void main(String ar[])
-{
-    // Byte b=2;
-    // short s=3;
-    // int a= 4;
-    // long l=6;
-    // char c='c';
-    // float f=1.67f;
-    // double d=1.4564893;
-    // boolean status=true;
+        int pin;
+        System.out .println("enter your pin");
+        pin=obj.nextInt();
 
-    // System.out.println(b+" "+s+" "+a+" "+l+" "+c+" "+f+" "+d+" "+status+" "+c);
- System.out.println("enter a name");
-    Scanner sc =new Scanner(System.in);
-    String name=sc.nextLine();
-    
+        if(pin==1234)
+        {
+            System.out .println("cw");
+        }
 
-    
-    System.out.println(name);
+        else
+        {
+             System.out .println("invailid password again");
+             pin=obj.nextInt();
+             if (pin==1234)
+             {
+                System.out .println("cw");
+             }
+             else{
 
-    
+                System.out .println("invailid password try again");
+                pin=obj.nextInt();
+                if(pin==1234)
+                {
+                    System.out .println("cw");
+                }
 
-
-
-}
-
-
+                else
+                {
+                    System.out .println("card blocked");
+                }
+             }
+        }
+    }
 }
