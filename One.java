@@ -125,30 +125,51 @@ Scanner obj=new Scanner(System.in);
 //     System.out.println("invailid ");
 // }
 
-int mn;
-System.out.println("enter a month 1-12");
-mn=obj.nextInt();
+// check the number of days.
 
-if(mn==1 || mn==3 || mn==5 || mn==7 || mn==8 || mn==10 || mn==12)
+// int mn;
+// System.out.println("enter a month 1-12");
+// mn=obj.nextInt();
+
+// if(mn==1 || mn==3 || mn==5 || mn==7 || mn==8 || mn==10 || mn==12)
+// {
+//     System.out.println("31 days");
+// }
+
+// else if(mn==4 || mn==6 || mn==9 || mn==11)
+// {
+//     System.out.println("30 dasy");
+// }
+
+// else if(mn==2)
+// {
+//     System.out .println("28/29 days");
+// }
+
+// else{
+//     System.out.println("invailid");
+// }
+
+char ab;
+System.out.println("enter a charctar");
+ab=obj.next().charAt(0);
+
+if(ab>='A' && ab<='Z')
 {
-    System.out.println("31 days");
+    ab=(char)(ab+32);
+    System.out.println(ab);
 }
 
-else if(mn==4 || mn==6 || mn==9 || mn==11)
+else if(ab>='a' && ab<='z')
 {
-    System.out.println("30 dasy");
+    ab=(char)(ab-32);
+    System.out.println(ab);
 }
 
-else if(mn==2)
+else 
 {
-    System.out .println("28/29 days");
+    System.out.println("Spaical symbol");
 }
-
-else{
-    System.out.println("invailid");
-}
-
-
 
 }
 
