@@ -1,1 +1,1 @@
-System.out.println(b+" "+s+" "+a+" "+l+" "+c+" "+f+" "+d+" "+status+" "+c);
+import java.util.Scanner;
