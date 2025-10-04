@@ -100,30 +100,55 @@ class One
 
 Scanner obj=new Scanner(System.in);
 
-System.out .println("enter your choice 1.f-c 2.c-f");
-int option=obj.nextInt();
+// System.out .println("enter your choice 1.f-c 2.c-f");
+// int option=obj.nextInt();
 
-if(option==1)
+// if(option==1)
+// {
+//     int temp;
+//     System.out.println("enter a tempreture");
+//     temp=obj.nextInt();
+//     int ans=((temp-32)*5)/9;
+//     System.out.println(ans+" "+"temp in celcius");
+// }
+
+// else if(option==2)
+// {
+//     int temp;
+//     System.out.println("enter a tempreture");
+//     temp=obj.nextInt();
+//     int ans=(temp*9)/5+32;
+//     System.out.println(ans+" "+"temp in farenhit");
+// }
+
+// else{
+//     System.out.println("invailid ");
+// }
+
+int mn;
+System.out.println("enter a month 1-12");
+mn=obj.nextInt();
+
+if(mn==1 || mn==3 || mn==5 || mn==7 || mn==8 || mn==10 || mn==12)
 {
-    int temp;
-    System.out.println("enter a tempreture");
-    temp=obj.nextInt();
-    int ans=((temp-32)*5)/9;
-    System.out.println(ans+" "+"temp in celcius");
+    System.out.println("31 days");
 }
 
-else if(option==2)
+else if(mn==4 || mn==6 || mn==9 || mn==11)
 {
-    int temp;
-    System.out.println("enter a tempreture");
-    temp=obj.nextInt();
-    int ans=(temp*9)/5+32;
-    System.out.println(ans+" "+"temp in farenhit");
+    System.out.println("30 dasy");
+}
+
+else if(mn==2)
+{
+    System.out .println("28/29 days");
 }
 
 else{
-    System.out.println("invailid ");
+    System.out.println("invailid");
 }
+
+
 
 }
 
