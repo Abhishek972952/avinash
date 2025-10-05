@@ -150,26 +150,40 @@ Scanner obj=new Scanner(System.in);
 //     System.out.println("invailid");
 // }
 
-char ab;
-System.out.println("enter a charctar");
-ab=obj.next().charAt(0);
+// char ab;
+// System.out.println("enter a charctar");
+// ab=obj.next().charAt(0);
 
-if(ab>='A' && ab<='Z')
-{
-    ab=(char)(ab+32);
-    System.out.println(ab);
-}
+// if(ab>='A' && ab<='Z')
+// {
+//     ab=(char)(ab+32);
+//     System.out.println(ab);
+// }
 
-else if(ab>='a' && ab<='z')
-{
-    ab=(char)(ab-32);
-    System.out.println(ab);
-}
+// else if(ab>='a' && ab<='z')
+// {
+//     ab=(char)(ab-32);
+//     System.out.println(ab);
+// }
 
-else 
-{
-    System.out.println("Spaical symbol");
-}
+// else 
+// {
+//     System.out.println("Spaical symbol");
+// }/
+
+int a=34;
+int b=23;
+
+b=a++;
+a=b--;
+a=b++;
+
+System.out.println(a);
+System.out.println(b);
+
+
+
+
 
 }
 
