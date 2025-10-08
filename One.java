@@ -172,10 +172,18 @@ class One
 // }
 
 
-for( int counter = 0; counter<11; counter++)
+// for( int i = 0; i<11; i++)
+// {
+//     System.out.println(i+" ");
+// }
+
+int i=0;
+while(i<11)
 {
-    System.out.println(counter);
+    System.out.println(i);
+    i++;
 }
+
 }
 
 }
