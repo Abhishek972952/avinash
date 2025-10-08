@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 class One
 {
@@ -98,7 +98,7 @@ class One
         
 // }
 
-Scanner obj=new Scanner(System.in);
+// Scanner obj=new Scanner(System.in);
 
 // System.out .println("enter your choice 1.f-c 2.c-f");
 // int option=obj.nextInt();
@@ -150,30 +150,32 @@ Scanner obj=new Scanner(System.in);
 //     System.out.println("invailid");
 // }
 
-char ab;
-System.out.println("enter a charctar");
-ab=obj.next().charAt(0);
+// char ab;
+// System.out.println("enter a charctar");
+// ab=obj.next().charAt(0);
 
-if(ab>='A' && ab<='Z')
+// if(ab>='A' && ab<='Z')
+// {
+//     ab=(char)(ab+32);
+//     System.out.println(ab);
+// }
+
+// else if(ab>='a' && ab<='z')
+// {
+//     ab=(char)(ab-32);
+//     System.out.println(ab);
+// }
+
+// else 
+// {
+//     System.out.println("Spaical symbol");
+// }
+
+
+for( int counter = 0; counter<11; counter++)
 {
-    ab=(char)(ab+32);
-    System.out.println(ab);
+    System.out.println(counter);
 }
-
-else if(ab>='a' && ab<='z')
-{
-    ab=(char)(ab-32);
-    System.out.println(ab);
-}
-
-else 
-{
-    System.out.println("Spaical symbol");
-}
-
-
-
-
 }
 
 }
