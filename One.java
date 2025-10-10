@@ -6,183 +6,183 @@ import java.util.Scanner;
    {
         
 
-        int pin;
-        System.out .println("enter your pin");
-        pin=obj.nextInt();
+//      int pin;
+//     System.out .println("enter your pin");
+//     pin=obj.nextInt();
 
-        if(pin==1234)
-        {
-            System.out .println("cw");
-        }
+//     if(pin==1234)
+//     {
+//         System.out .println("cw");
+//     }
 
-        else
-        {
-             System.out .println("invailid password again");
-             pin=obj.nextInt();
-             if (pin==1234)
-             {
-                System.out .println("cw");
-             }
-             else{
+//      else
+//      {
+//          System.out .println("invailid password again");
+//          pin=obj.nextInt();
+//         if (pin==1234)
+//     {
+//         System.out .println("cw");
+//     }
+//     else{
 
-                System.out .println("invailid password try again");
-                pin=obj.nextInt();
-                if(pin==1234)
-                {
-                    System.out .println("cw");
-                }
+//     System.out .println("invailid password try again");
+//     pin=obj.nextInt();
+//     if(pin==1234)
+//     {
+//     System.out .println("cw");
+//     }
 
-                else
-                {
-                    System.out .println("card blocked");
-                }
-             }
-        }
-     }
+//     else
+//     {
+//     System.out .println("card blocked");
+//      }
+//         }
+//      }
+//      }
     
 
-    System.out.println("enter a number");
-    int number;
+//     System.out.println("enter a number");
+//     int number;
 
-    if(number<0)
-    {
-        System.out.println(number*-1);
-    }
+//     if(number<0)
+//     {
+//         System.out.println(number*-1);
+//     }
 
-    else{
-        System.out.println(number);
-    }
+//     else{
+//         System.out.println(number);
+//     }
    
     
-    }
+//     }
 
 
 
 
-int cp;
-int sp;
+// int cp;
+// int sp;
 
-cp=obj.nextInt();
-sp=obj.nextInt();
+// cp=obj.nextInt();
+// sp=obj.nextInt();
 
-if(cp<sp)
-{
-String option;
-System.out.println("chose option yes or no");
-option=obj.next();
-if(option=="yes")
-{
-System.out.println("profit= "+""+(sp-cp)+"your discount is 100");
-}
+// if(cp<sp)
+// {
+// String option;
+// System.out.println("chose option yes or no");
+// option=obj.next();
+// if(option=="yes")
+// {
+// System.out.println("profit= "+""+(sp-cp)+"your discount is 100");
+// }
 
-else
-{
-System.out.println("profit= "+""+(sp-cp));
-}
-}
+// else
+// {
+// System.out.println("profit= "+""+(sp-cp));
+// }
+// }
 
-else if(cp>sp)
-    {
-    String option;
-    System.out.println("chose option mrp yes or no");
-    option=obj.next();
-if(option.equals("yes"))
-{
-System.out.println("loss= "+""+(cp-sp)+"your discount ids 100");
-}
+// else if(cp>sp)
+//     {
+//     String option;
+//     System.out.println("chose option mrp yes or no");
+//     option=obj.next();
+// if(option.equals("yes"))
+// {
+// System.out.println("loss= "+""+(cp-sp)+"your discount ids 100");
+// }
 
-else
-{
-System.out.println("loss= "+""+(cp-sp)); 
-}    
+// else
+// {
+// System.out.println("loss= "+""+(cp-sp)); 
+// }    
         
-}
+// }
 
 
 
-System.out .println("enter your choice 1.f-c 2.c-f");
-int option=obj.nextInt();
+// System.out .println("enter your choice 1.f-c 2.c-f");
+// int option=obj.nextInt();
 
-if(option==1)
-{
-    int temp;
-    System.out.println("enter a tempreture");
-    temp=obj.nextInt();
-    int ans=((temp-32)*5)/9;
-    System.out.println(ans+" "+"temp in celcius");
-}
+// if(option==1)
+// {
+//     int temp;
+//     System.out.println("enter a tempreture");
+//     temp=obj.nextInt();
+//     int ans=((temp-32)*5)/9;
+//     System.out.println(ans+" "+"temp in celcius");
+// }
 
-else if(option==2)
-{
-    int temp;
-    System.out.println("enter a tempreture");
-    temp=obj.nextInt();
-    int ans=(temp*9)/5+32;
-    System.out.println(ans+" "+"temp in farenhit");
-}
+// else if(option==2)
+// {
+//     int temp;
+//     System.out.println("enter a tempreture");
+//     temp=obj.nextInt();
+//     int ans=(temp*9)/5+32;
+//     System.out.println(ans+" "+"temp in farenhit");
+// }
 
-else{
-    System.out.println("invailid ");
-}
+// else{
+//     System.out.println("invailid ");
+// }
 
-check the number of days.
+// check the number of days.
 
-int mn;
-System.out.println("enter a month 1-12");
-mn=obj.nextInt();
+// int mn;
+// System.out.println("enter a month 1-12");
+// mn=obj.nextInt();
 
-if(mn==1 || mn==3 || mn==5 || mn==7 || mn==8 || mn==10 || mn==12)
-{
-    System.out.println("31 days");
-}
+// if(mn==1 || mn==3 || mn==5 || mn==7 || mn==8 || mn==10 || mn==12)
+// {
+//     System.out.println("31 days");
+// }
 
-else if(mn==4 || mn==6 || mn==9 || mn==11)
-{
-    System.out.println("30 dasy");
-}
+// else if(mn==4 || mn==6 || mn==9 || mn==11)
+// {
+//     System.out.println("30 dasy");
+// }
 
-else if(mn==2)
-{
-    System.out .println("28/29 days");
-}
+// else if(mn==2)
+// {
+//     System.out .println("28/29 days");
+// }
 
-else{
-    System.out.println("invailid");
-}
+// else{
+//     System.out.println("invailid");
+// }
 
-char ab;
-System.out.println("enter a charctar");
-ab=obj.next().charAt(0);
+// char ab;
+// System.out.println("enter a charctar");
+// ab=obj.next().charAt(0);
 
-if(ab>='A' && ab<='Z')
-{
-    ab=(char)(ab+32);
-    System.out.println(ab);
-}
+// if(ab>='A' && ab<='Z')
+// {
+//     ab=(char)(ab+32);
+//     System.out.println(ab);
+// }
 
-else if(ab>='a' && ab<='z')
-{
-    ab=(char)(ab-32);
-    System.out.println(ab);
-}
+// else if(ab>='a' && ab<='z')
+// {
+//     ab=(char)(ab-32);
+//     System.out.println(ab);
+// }
 
-else 
-{
-    System.out.println("Spaical symbol");
-}
+// else 
+// {
+//     System.out.println("Spaical symbol");
+// }
 
 
-for( int i = 0; i<11; i++)
-{
-    System.out.println(i+" ");
-}
+// for( int i = 0; i<11; i++)
+// {
+//     System.out.println(i+" ");
+// }
 
-int i=0;
-while(i<11)
-{
-    System.out.println(i);
-    i++;
-}
+// int i=0;
+// while(i<11)
+// {
+//     System.out.println(i);
+//     i++;
+// }
 int option;
 Scanner obj=new Scanner(System.in);
 option=obj.next();charAT(0);
