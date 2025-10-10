@@ -1,44 +1,44 @@
-// import java.util.Scanner;
+import java.util.Scanner;
 
-class One
+ class One
 {
     public static void main(String arr[])
-    {
+   {
         
 
-    //     int pin;
-    //     System.out .println("enter your pin");
-    //     pin=obj.nextInt();
+//     //     int pin;
+//     //     System.out .println("enter your pin");
+//     //     pin=obj.nextInt();
 
-    //     if(pin==1234)
-    //     {
-    //         System.out .println("cw");
-    //     }
+//     //     if(pin==1234)
+//     //     {
+//     //         System.out .println("cw");
+//     //     }
 
-    //     else
-    //     {
-    //          System.out .println("invailid password again");
-    //          pin=obj.nextInt();
-    //          if (pin==1234)
-    //          {
-    //             System.out .println("cw");
-    //          }
-    //          else{
+//     //     else
+//     //     {
+//     //          System.out .println("invailid password again");
+//     //          pin=obj.nextInt();
+//     //          if (pin==1234)
+//     //          {
+//     //             System.out .println("cw");
+//     //          }
+//     //          else{
 
-    //             System.out .println("invailid password try again");
-    //             pin=obj.nextInt();
-    //             if(pin==1234)
-    //             {
-    //                 System.out .println("cw");
-    //             }
+//     //             System.out .println("invailid password try again");
+//     //             pin=obj.nextInt();
+//     //             if(pin==1234)
+//     //             {
+//     //                 System.out .println("cw");
+//     //             }
 
-    //             else
-    //             {
-    //                 System.out .println("card blocked");
-    //             }
-    //          }
-    //     }
-    //  }
+//     //             else
+//     //             {
+//     //                 System.out .println("card blocked");
+//     //             }
+//     //          }
+//     //     }
+//     //  }
     
 
     // System.out.println("enter a number");
@@ -98,7 +98,7 @@ class One
         
 // }
 
-// Scanner obj=new Scanner(System.in);
+
 
 // System.out .println("enter your choice 1.f-c 2.c-f");
 // int option=obj.nextInt();
@@ -177,13 +177,30 @@ class One
 //     System.out.println(i+" ");
 // }
 
-int i=0;
-while(i<11)
+// int i=0;
+// while(i<11)
+// {
+//     System.out.println(i);
+//     i++;
+// }
+int option;
+Scanner obj=new Scanner(System.in);
+option=obj.nextInt();
+
+
+switch(option)
 {
-    System.out.println(i);
-    i++;
+    case 1:System.out.println("case1");
+    break;
+
+    case 2:System.out.println("case2");
+     break;
+    case 3:System.out.println("case3");
+     break;
+    default:System.out.println("invailid");
+}
+}
 }
 
-}
+   
 
-}
